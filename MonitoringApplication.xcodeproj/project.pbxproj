@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		376C81141F50557200FFD780 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81131F50557200FFD780 /* main.swift */; };
-		376C81211F5055B200FFD780 /* MonitoringApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81201F5055B200FFD780 /* MonitoringApplicationTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,20 +25,12 @@
 /* Begin PBXFileReference section */
 		376C81101F50557200FFD780 /* MonitoringApplication */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MonitoringApplication; sourceTree = BUILT_PRODUCTS_DIR; };
 		376C81131F50557200FFD780 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		376C811E1F5055B200FFD780 /* MonitoringApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonitoringApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		376C81201F5055B200FFD780 /* MonitoringApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringApplicationTests.swift; sourceTree = "<group>"; };
 		376C81221F5055B200FFD780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		376C810D1F50557200FFD780 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		376C811B1F5055B200FFD780 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -62,7 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				376C81101F50557200FFD780 /* MonitoringApplication */,
-				376C811E1F5055B200FFD780 /* MonitoringApplicationTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,23 +94,6 @@
 			productReference = 376C81101F50557200FFD780 /* MonitoringApplication */;
 			productType = "com.apple.product-type.tool";
 		};
-		376C811D1F5055B200FFD780 /* MonitoringApplicationTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 376C81231F5055B200FFD780 /* Build configuration list for PBXNativeTarget "MonitoringApplicationTests" */;
-			buildPhases = (
-				376C811A1F5055B200FFD780 /* Sources */,
-				376C811B1F5055B200FFD780 /* Frameworks */,
-				376C811C1F5055B200FFD780 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MonitoringApplicationTests;
-			productName = MonitoringApplicationTests;
-			productReference = 376C811E1F5055B200FFD780 /* MonitoringApplicationTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -132,11 +105,6 @@
 				ORGANIZATIONNAME = "Greg McIntyre";
 				TargetAttributes = {
 					376C810F1F50557200FFD780 = {
-						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = M4J349B3XP;
-						ProvisioningStyle = Automatic;
-					};
-					376C811D1F5055B200FFD780 = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = M4J349B3XP;
 						ProvisioningStyle = Automatic;
@@ -156,20 +124,9 @@
 			projectRoot = "";
 			targets = (
 				376C810F1F50557200FFD780 /* MonitoringApplication */,
-				376C811D1F5055B200FFD780 /* MonitoringApplicationTests */,
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		376C811C1F5055B200FFD780 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		376C810C1F50557200FFD780 /* Sources */ = {
@@ -177,14 +134,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				376C81141F50557200FFD780 /* main.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		376C811A1F5055B200FFD780 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				376C81211F5055B200FFD780 /* MonitoringApplicationTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,34 +248,6 @@
 			};
 			name = Release;
 		};
-		376C81241F5055B200FFD780 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = M4J349B3XP;
-				INFOPLIST_FILE = MonitoringApplicationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcintyre.gn.MonitoringApplicationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_VERSION = 3.0;
-			};
-			name = Debug;
-		};
-		376C81251F5055B200FFD780 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = M4J349B3XP;
-				INFOPLIST_FILE = MonitoringApplicationTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mcintyre.gn.MonitoringApplicationTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -346,14 +267,7 @@
 				376C81191F50557200FFD780 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		376C81231F5055B200FFD780 /* Build configuration list for PBXNativeTarget "MonitoringApplicationTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				376C81241F5055B200FFD780 /* Debug */,
-				376C81251F5055B200FFD780 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
