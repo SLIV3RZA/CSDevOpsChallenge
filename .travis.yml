@@ -1,12 +1,11 @@
 language: objective-c
 xcode_project: MonitoringApplication.xcodeproj
-xcode_schema: MonitoringApplication
 
 branches:
  only:
  - master
 
-osx_image: osx_image: xcode8.3
+osx_image: xcode8.3
 
 script:
 - xcodebuild clean build test -project MonitoringApplication.xcodeproj -scheme MonitoringApplicationTests
