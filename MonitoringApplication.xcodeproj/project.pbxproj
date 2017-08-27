@@ -18,7 +18,8 @@
 		376C816D1F52F8C700FFD780 /* ValidateNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81661F52DBDD00FFD780 /* ValidateNetwork.swift */; };
 		376C81701F53094900FFD780 /* ValidateNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C816F1F53094900FFD780 /* ValidateNetworkTests.swift */; };
 		376C81721F530BC200FFD780 /* MonitoringApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81711F530BC200FFD780 /* MonitoringApplicationTests.swift */; };
-		376C81751F5311E700FFD780 /* ThirdPartyLibs in Resources */ = {isa = PBXBuildFile; fileRef = 376C81741F5311E700FFD780 /* ThirdPartyLibs */; };
+		376C81781F53136D00FFD780 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81771F53136D00FFD780 /* Just.swift */; };
+		376C81791F53136D00FFD780 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81771F53136D00FFD780 /* Just.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -46,7 +47,7 @@
 		376C81681F52E67100FFD780 /* UserInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInteraction.swift; sourceTree = "<group>"; };
 		376C816F1F53094900FFD780 /* ValidateNetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateNetworkTests.swift; sourceTree = "<group>"; };
 		376C81711F530BC200FFD780 /* MonitoringApplicationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitoringApplicationTests.swift; sourceTree = "<group>"; };
-		376C81741F5311E700FFD780 /* ThirdPartyLibs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ThirdPartyLibs; sourceTree = "<group>"; };
+		376C81771F53136D00FFD780 /* Just.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,7 +94,7 @@
 				376C81681F52E67100FFD780 /* UserInteraction.swift */,
 				376C81621F52A40900FFD780 /* URLTester.swift */,
 				376C81661F52DBDD00FFD780 /* ValidateNetwork.swift */,
-				376C81741F5311E700FFD780 /* ThirdPartyLibs */,
+				376C81761F53136D00FFD780 /* ThirdPartyLibs */,
 			);
 			path = MonitoringApplication;
 			sourceTree = "<group>";
@@ -116,6 +117,14 @@
 				376C812E1F50664500FFD780 /* Info.plist */,
 			);
 			path = MonitoringApplicationTests;
+			sourceTree = "<group>";
+		};
+		376C81761F53136D00FFD780 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				376C81771F53136D00FFD780 /* Just.swift */,
+			);
+			path = ThirdPartyLibs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,7 +209,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				376C81751F5311E700FFD780 /* ThirdPartyLibs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -214,6 +222,7 @@
 				376C81671F52DBDD00FFD780 /* ValidateNetwork.swift in Sources */,
 				376C81691F52E67100FFD780 /* UserInteraction.swift in Sources */,
 				376C81141F50557200FFD780 /* main.swift in Sources */,
+				376C81781F53136D00FFD780 /* Just.swift in Sources */,
 				376C81631F52A40900FFD780 /* URLTester.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -225,6 +234,7 @@
 				376C81721F530BC200FFD780 /* MonitoringApplicationTests.swift in Sources */,
 				376C81651F52A70500FFD780 /* URLTesterTests.swift in Sources */,
 				376C816C1F52F8C400FFD780 /* main.swift in Sources */,
+				376C81791F53136D00FFD780 /* Just.swift in Sources */,
 				376C816D1F52F8C700FFD780 /* ValidateNetwork.swift in Sources */,
 				376C81701F53094900FFD780 /* ValidateNetworkTests.swift in Sources */,
 				376C816A1F52F8BD00FFD780 /* URLTester.swift in Sources */,
