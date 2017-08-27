@@ -20,9 +20,17 @@ class URLTesterTests: XCTestCase {
         super.tearDown()
     }
 
-    func testCheckURL() {
+    func testInvalidCheckURL() {
         let url = "cdas"
         let expectedOutput = ", Component Status: RED, cdas, "
+        let output = URLTester().checkURL(urlPath: url)
+        
+        XCTAssertTrue(output.range(of: expectedOutput) != nil)
+    }
+    
+    func testValidCheckURL() {
+        let url = "http://www.google.com"
+        let expectedOutput = ", Component Status: GREEN, http://www.google.com, "
         let output = URLTester().checkURL(urlPath: url)
         
         XCTAssertTrue(output.range(of: expectedOutput) != nil)
