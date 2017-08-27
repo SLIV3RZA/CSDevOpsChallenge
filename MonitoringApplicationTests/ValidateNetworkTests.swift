@@ -1,5 +1,5 @@
 //
-//  MonitoringApplicationTests.swift
+//  ValidateNetworkTests.swift
 //  MonitoringApplication
 //
 //  Created by Gregory McIntyre on 2017/08/27.
@@ -8,7 +8,7 @@
 
 import XCTest
 
-class MonitoringApplicationTests: XCTestCase {
+class ValidateNetworkTests: XCTestCase {
 
     override func setUp() {
         super.setUp()
@@ -19,4 +19,9 @@ class MonitoringApplicationTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
+
+    func testIsConnectedToNetwork() {
+        XCTAssertTrue(ValidateNetwork().isConnectedToNetwork())
+    }
+
 }

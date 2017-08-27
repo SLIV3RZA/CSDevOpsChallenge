@@ -1,5 +1,5 @@
 //
-//  MonitoringApplicationTests.swift
+//  URLTesterTests.swift
 //  MonitoringApplication
 //
 //  Created by Gregory McIntyre on 2017/08/27.
@@ -8,8 +8,8 @@
 
 import XCTest
 
-class MonitoringApplicationTests: XCTestCase {
-
+class URLTesterTests: XCTestCase {
+    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -19,4 +19,13 @@ class MonitoringApplicationTests: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
+
+    func testCheckURL() {
+        let url = "cdas"
+        let expectedOutput = ", Component Status: RED, cdas, "
+        let output = URLTester().checkURL(urlPath: url)
+        
+        XCTAssertTrue(output.range(of: expectedOutput) != nil)
+    }
+
 }
