@@ -1,0 +1,3 @@
+ignore:
+	- "MonitoringApplication/ThirdPartyLibs/*"
+  - "MonitoringApplicationTests/*"
