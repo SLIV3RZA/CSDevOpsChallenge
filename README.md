@@ -1,6 +1,7 @@
 # CSDevOpsChallenge
 ## Monitoring Application
 
+### CI Tools used on this project
 | Tool        | Status           
 | ------------- |:-------------:
 | Travis Build      | [![Build Status](https://travis-ci.org/SLIV3RZA/CSDevOpsChallenge.svg?branch=master)](https://travis-ci.org/SLIV3RZA/CSDevOpsChallenge)
@@ -20,6 +21,7 @@
 
 ### Example User input
 http://www.google.com,https://developer.apple.com/account/#/overview,http://bleh.bleh,cdas
+
 
 ### Third Party Libraries used
 Network Code library details - JustHTTP (https://github.com/justhttp/Just)
