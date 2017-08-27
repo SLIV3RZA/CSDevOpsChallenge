@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		376C81141F50557200FFD780 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81131F50557200FFD780 /* main.swift */; };
-		376C81611F521EC300FFD780 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81601F521EC300FFD780 /* Just.swift */; };
 		376C81631F52A40900FFD780 /* URLTester.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81621F52A40900FFD780 /* URLTester.swift */; };
 		376C81651F52A70500FFD780 /* URLTesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81641F52A70500FFD780 /* URLTesterTests.swift */; };
 		376C81671F52DBDD00FFD780 /* ValidateNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81661F52DBDD00FFD780 /* ValidateNetwork.swift */; };
@@ -17,9 +16,9 @@
 		376C816B1F52F8C000FFD780 /* UserInteraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81681F52E67100FFD780 /* UserInteraction.swift */; };
 		376C816C1F52F8C400FFD780 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81131F50557200FFD780 /* main.swift */; };
 		376C816D1F52F8C700FFD780 /* ValidateNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81661F52DBDD00FFD780 /* ValidateNetwork.swift */; };
-		376C816E1F52F8CA00FFD780 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81601F521EC300FFD780 /* Just.swift */; };
 		376C81701F53094900FFD780 /* ValidateNetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C816F1F53094900FFD780 /* ValidateNetworkTests.swift */; };
 		376C81721F530BC200FFD780 /* MonitoringApplicationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 376C81711F530BC200FFD780 /* MonitoringApplicationTests.swift */; };
+		376C81751F5311E700FFD780 /* ThirdPartyLibs in Resources */ = {isa = PBXBuildFile; fileRef = 376C81741F5311E700FFD780 /* ThirdPartyLibs */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,13 +40,13 @@
 		376C812A1F50664500FFD780 /* MonitoringApplicationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MonitoringApplicationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		376C812C1F50664500FFD780 /* MonitoringApplicationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonitoringApplicationTests.swift; sourceTree = "<group>"; };
 		376C812E1F50664500FFD780 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		376C81601F521EC300FFD780 /* Just.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
 		376C81621F52A40900FFD780 /* URLTester.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTester.swift; sourceTree = "<group>"; };
 		376C81641F52A70500FFD780 /* URLTesterTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLTesterTests.swift; sourceTree = "<group>"; };
 		376C81661F52DBDD00FFD780 /* ValidateNetwork.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateNetwork.swift; sourceTree = "<group>"; };
 		376C81681F52E67100FFD780 /* UserInteraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInteraction.swift; sourceTree = "<group>"; };
 		376C816F1F53094900FFD780 /* ValidateNetworkTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValidateNetworkTests.swift; sourceTree = "<group>"; };
 		376C81711F530BC200FFD780 /* MonitoringApplicationTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonitoringApplicationTests.swift; sourceTree = "<group>"; };
+		376C81741F5311E700FFD780 /* ThirdPartyLibs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ThirdPartyLibs; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +93,7 @@
 				376C81681F52E67100FFD780 /* UserInteraction.swift */,
 				376C81621F52A40900FFD780 /* URLTester.swift */,
 				376C81661F52DBDD00FFD780 /* ValidateNetwork.swift */,
-				376C81601F521EC300FFD780 /* Just.swift */,
+				376C81741F5311E700FFD780 /* ThirdPartyLibs */,
 			);
 			path = MonitoringApplication;
 			sourceTree = "<group>";
@@ -201,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				376C81751F5311E700FFD780 /* ThirdPartyLibs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +215,6 @@
 				376C81691F52E67100FFD780 /* UserInteraction.swift in Sources */,
 				376C81141F50557200FFD780 /* main.swift in Sources */,
 				376C81631F52A40900FFD780 /* URLTester.swift in Sources */,
-				376C81611F521EC300FFD780 /* Just.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,7 +223,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				376C81721F530BC200FFD780 /* MonitoringApplicationTests.swift in Sources */,
-				376C816E1F52F8CA00FFD780 /* Just.swift in Sources */,
 				376C81651F52A70500FFD780 /* URLTesterTests.swift in Sources */,
 				376C816C1F52F8C400FFD780 /* main.swift in Sources */,
 				376C816D1F52F8C700FFD780 /* ValidateNetwork.swift in Sources */,
